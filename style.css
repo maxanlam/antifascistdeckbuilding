@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "gapsans";
+    src: url(/GapSans.ttf);
+}
+
+html {
+        box-shadow: inset 0px 0px 20px white;
+        overflow: hidden;
+}
+
+:root {
+    --color: #6000bfff;
+
+}
+
+
+body {
+    background: url(/gitter.svg);
+    background-size: cover;
+    height: 100dvh;
+    font-family: "gapsans";
+    color: #6000bfff;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    margin: 0;
+}
+
+main {
+    height: 100dvh;
+    max-width: 80rem;
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-snap-type: y proximity;
+}
+
+article {
+    padding: 2rem;
+    margin: 1rem;
+    height: auto;
+        background-color: white;
+        scroll-snap-align: center;
+    box-shadow: 0px 0px 0px white;
+}
