@@ -116,14 +116,19 @@ main::-webkit-scrollbar,
     paint-order: fill markers stroke;
 }
 
+#about {
+    background-color: white;
+    box-shadow: 1px 1px 10px white;
+    text-align: center;
+}
+
 article {
     padding: 2rem;
     margin: 1rem;
-
     height: auto;
     background-color: white;
 
-    scroll-snap-align: center;
+    scroll-snap-align: bottom;
 
     box-shadow: 1px 1px 10px var(--color);
 }
