@@ -50,7 +50,7 @@ async function loadReadme() {
         // Ignore everything before first H2
         elements.forEach(element => {
 
-            if (element.tagName === "H2") {
+            if (element.tagName === "H3" || element.tagName === "H2") {
 
                 currentArticle = document.createElement("article");
 
@@ -71,6 +71,9 @@ async function loadReadme() {
 
                 link.href = `#${id}`;
                 link.textContent = element.textContent;
+                if (element.tagName === "H2") {
+                 link.classList.add("h2");
+                }
 
                 li.appendChild(link);
                 menuList.appendChild(li);
@@ -84,6 +87,27 @@ async function loadReadme() {
         });
 
         setupMenu();
+
+        const articles = [...content.querySelectorAll("article:has(> h2)")];
+
+function checkSticky() {
+    const stickyTop = parseFloat(getComputedStyle(document.documentElement).fontSize);
+
+    articles.forEach((article, index) => {
+        if (index === 0) return;
+
+        const previousH2 = articles[index - 1].querySelector("h2");
+        const nextTop = article.getBoundingClientRect().top;
+
+        if (previousH2) {
+            previousH2.style.display = nextTop <= stickyTop ? "none" : "";
+        }
+    });
+}
+
+window.addEventListener("scroll", checkSticky, { passive: true });
+window.addEventListener("resize", checkSticky);
+checkSticky();
 
     } catch (error) {
         console.error("Error loading README:", error);
@@ -125,4 +149,7 @@ function setupMenu() {
 }
 
 
+
+
 loadReadme();
+

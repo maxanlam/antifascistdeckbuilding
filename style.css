@@ -37,10 +37,10 @@ body {
     margin: 0;
     font-family: "gapsans", sans-serif;
     color: var(--color) !important;
-    /* was clamp(1.2rem, 2vw, 2rem) */
     font-size: clamp(19px, 2vw, 32px);
     overflow-wrap: break-word;
 }
+
 
 #bg {
     position: fixed;
@@ -147,30 +147,56 @@ footer a {
 }
 
 article {
-    /* was padding: 2rem; margin: 1rem */
     padding: calc(var(--u) * 2);
     margin: var(--u);
     height: auto;
     background-color: white;
-    backdrop-filter: blur(4px);
     scroll-snap-align: start;
     box-shadow: 1px 1px 10px var(--color);
 }
 
-article:first-of-type {
-    margin-top: 0;
+code {
+    background-color: rgb(235, 234, 234);
+    display: inline;
+    font-size: clamp(18px, 1.6vw, 30px);
 }
- h2 {
-    font-size: calc(var(--u) * 2);
-    margin-top: 0;
+
+
+h2 {
+    z-index: 10;
+
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+
+    font-size: calc(var(--u) * 2.5);
     color: var(--color);
     line-height: 130%;
+    text-align: center;
+
+    background-color: white;
+    padding: 0 10px;
     font-family: "Trattatello", "Apple Chancery", serif;
+    box-shadow: 1px 1px 40px white;
+}
+
+article:has(h2):not(#description article) {
+    position: sticky;
+    top: 1rem;
+    background: none;
+    box-shadow: none;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-self: center;
+    padding-bottom: 0;
 }
 
 article h3 {
     color: var(--color);
+    margin-top: 0.5rem;
 }
+
 
 article a, #description a {
     color: var(--color);
@@ -304,7 +330,6 @@ blockquote p::after {
     overflow-y: auto;
 
     padding: calc(var(--u) * 0.75);
-    font-family: "Trattatello", "Apple Chancery", serif;
     background: white;
     border-radius: 16px;
     box-shadow: 1px 1px 20px var(--color);
@@ -334,7 +359,6 @@ blockquote p::after {
     color: var(--color);
     text-decoration: none;
     font-size: calc(var(--u) * 1.3);
-
     border-radius: 10px;
     transition: background 0.2s, padding 0.2s;
 }
@@ -343,9 +367,16 @@ blockquote p::after {
     border-radius: 10px;
     transition: background 0.2s, padding 0.2s;
     padding: 3%;
+    font-family: "Trattatello", "Apple Chancery", serif;
     font-size: clamp(2rem, 4vw, 2.5rem);
     display: inline-block;
     cursor: pointer;
+}
+
+
+#menu li a.h2 {
+    font-size: calc(var(--u) * 1.6);
+    font-family: "Trattatello", "Apple Chancery", serif;
 }
 
 #descriptionLink:hover {
