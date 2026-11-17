@@ -178,10 +178,7 @@ Für einen Kompletten ausstieg aus diesen Infrastrukturen empfiehlt es sich Föd
 
 ### Beispiel Mastodon
 
-Mastodon ist ein dezentrales soziales Netzwerk ähnlich wie X (Twitter). Nutzer:innen können Beiträge veröffentlichen, anderen folgen und Inhalte teilen. Mastodon besteht aus vielen unabhängigen Servern, sogenannten Instanzen. Nutzer:innen können selbst entscheiden, welcher Instanz sie beitreten möchten. Die Plattform ist kostenlos, werbefrei und Open Source.
-
-[Zur Mastodon-App](https://joinmastodon.org/apps)
-
+[Mastodon](https://joinmastodon.org/de) ist ein dezentrales soziales Netzwerk ähnlich wie X (Twitter). Nutzer:innen können Beiträge veröffentlichen, anderen folgen und Inhalte teilen. Mastodon besteht aus vielen unabhängigen Servern, sogenannten Instanzen. Nutzer:innen können selbst entscheiden, welcher Instanz sie beitreten möchten. Die Plattform ist kostenlos, werbefrei und Open Source.
 
 #### Wichtig:
 
