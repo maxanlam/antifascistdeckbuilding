@@ -20,6 +20,12 @@
 
 - Unsere Daten sind der willkürlichen Entscheidung von Alex Durov ausgeliefert
 
+## Wieso fällt uns wechseln so schwer? / Vendor Lock-In
+
+- Netzwerkeffekt: Alles findet auf Telegram statt
+
+- Datensilo: Unsere ganzen Chats/Profildaten sind dort gespeichert
+
 ## Liffle FS
 
 LittleSis ist eine Open-Source-Datenbank und Rechercheplattform, die Verflechtungen zwischen einflussreichen Personen und Organisationen aus Politik, Wirtschaft und Finanzwelt dokumentiert.
