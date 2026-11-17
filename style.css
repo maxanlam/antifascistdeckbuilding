@@ -24,7 +24,7 @@ html {
 }
 
 body {
-    background: url("/gitter.svg");
+    background: url("./gitter.svg");
     background-size: cover;
     height: 100dvh;
     font-family: "gapsans", sans-serif;
@@ -87,7 +87,7 @@ main::-webkit-scrollbar,
     display: flex;
     justify-content: center;
     align-items: start;
-    background: linear-gradient(white, transparent);
+    background: linear-gradient(rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0.525) 80%, transparent);
     pointer-events: none;
 }
 
