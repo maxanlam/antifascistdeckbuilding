@@ -1,16 +1,11 @@
 @font-face {
     font-family: "gapsans";
-    src: url("/GapSans.ttf") format("truetype");
+    src: url("./GapSans.ttf") format("truetype");
     font-weight: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: "tratt";
-    src: url("/Trattatello.ttf") format("truetype");
-    font-weight: normal;
-    font-display: swap;
-}
+
 
 :root {
     --color: #6000bfff;
@@ -77,6 +72,7 @@ main,
     scrollbar-width: none;
 
     scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
 }
 
 main::-webkit-scrollbar,
@@ -140,7 +136,7 @@ article h2 {
     font-size: 2.2rem;
     margin-top: 0;
     color: var(--color);
-    font-family: "tratt";
+    font-family: "Trattatello", "Apple Chancery", serif;
 }
 
 article h3 {
@@ -228,8 +224,7 @@ h2::after {
     overflow-y: auto;
 
     padding: 0.75rem;
-
-    font-family: "tratt";
+    font-family: "Trattatello", "Apple Chancery", serif;
     background: white;
     border-radius: 16px;
     box-shadow: 1px 1px 20px var(--color);
