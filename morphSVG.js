@@ -7,8 +7,10 @@ gsap.fromTo("#letters",
         ease: "none",
         scrollTrigger: {
             start: 0,
-            end: 100,
+            end: 150,
             scrub: true
         }
     }
 );
+
+

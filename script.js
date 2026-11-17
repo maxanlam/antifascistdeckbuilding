@@ -1,3 +1,24 @@
+// Open / toggle description
+const descriptionLink = document.getElementById("descriptionLink");
+const description = document.getElementById("description");
+const closeButton = document.getElementById("closeDescription");
+const menu = document.getElementById("menu");
+
+descriptionLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    description.classList.toggle("hidden");
+});
+
+closeButton.addEventListener("click", () => {
+    description.classList.add("hidden");
+});
+
+
+menu.addEventListener("click", (event) => {
+    const link = event.target.closest("#menu-list a");
+    if (link) description.classList.add("hidden");
+}); 
+
 
 async function loadReadme() {
 
