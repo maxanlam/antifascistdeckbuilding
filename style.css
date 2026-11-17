@@ -67,7 +67,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: start;
-    background: linear-gradient(rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0.525) 80%, transparent);
+    background: linear-gradient(rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0.525) 70%, transparent);
     pointer-events: none;
 }
 
@@ -96,8 +96,7 @@ img {
 
 header {
     position: fixed;
-    top: 0;
-    left: 0;
+    bottom: 0;
     right: 0;
     z-index: 100;
 
@@ -122,6 +121,8 @@ footer {
     margin: var(--u) auto;
     padding: var(--u) calc(var(--u) * 2);
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 footer ul {
@@ -138,7 +139,7 @@ footer ul {
 footer a {
     color: var(--color);
     text-decoration: none;
-    padding: 5%;
+    padding: 8%;
     display: inline-block;
     text-underline-offset: 4px;
     background-color: white;
@@ -151,6 +152,7 @@ article {
     margin: var(--u);
     height: auto;
     background-color: white;
+    backdrop-filter: blur(4px);
     scroll-snap-align: start;
     box-shadow: 1px 1px 10px var(--color);
 }
@@ -184,6 +186,7 @@ article a, #description a {
     outline-width: 5px;
     outline-offset: 4px;
     text-decoration: none;
+    display: inline-flex;
     background: white !important;
 }
 
@@ -207,6 +210,25 @@ h2::after {
     pointer-events: auto;
 }
 
+
+blockquote {
+    position: relative;
+    margin: 2rem 1rem;
+    font-size: clamp(26px, 2.5vw, 42px);
+    padding: 1.5rem 2rem;
+    font-style: italic;
+    color: var(--color);
+    border-left: 3px solid var(--color);
+    background: white;
+}
+
+blockquote p::before {
+    content: "»";
+}
+
+blockquote p::after {
+    content: "«";
+} 
 
 #menu::-webkit-scrollbar {
     width: 8px;
@@ -274,14 +296,13 @@ h2::after {
 
 #menu {
     position: absolute;
-    top: calc(100% + 12px);
-    left: 0;
+    bottom: calc(100% + 12px);
+    right: 0;
 
     width: min(320px, 85vw);
     max-height: 70dvh;
     overflow-y: auto;
 
-    /* was 0.75rem */
     padding: calc(var(--u) * 0.75);
     font-family: "Trattatello", "Apple Chancery", serif;
     background: white;
@@ -345,10 +366,10 @@ h2::after {
     top: 0dvh;
     left: 0vw;
     box-shadow: 1px 1px 10000px var(--color);
-    z-index: 99;
+    z-index: 101;
     scale: 1;
     pointer-events: all;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s cubic-bezier(.68,-0.55,.27,1.55);
     overflow-y: auto;
     height: 100%;
 }
