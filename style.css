@@ -5,13 +5,12 @@
     font-display: swap;
 }
 
-
-
 :root {
     --color: #6000bfff;
     --background: white;
     --title-w: calc(90vw * 0.8);
     --title-h: calc(var(--title-w) * 69.18779 / 194.47627);
+    --top-space: calc(var(--title-h) + 1rem);
 }
 
 * {
@@ -19,30 +18,65 @@
 }
 
 html {
-    box-shadow: inset 0 0 20px white;
-    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+    scroll-padding-top: var(--top-space);
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 body {
-    background: url("./gitter.svg");
-    background-size: cover;
-    height: 100dvh;
+    min-height: 100dvh;
+    margin: 0;
     font-family: "gapsans", sans-serif;
     color: var(--color) !important;
     font-size: clamp(1.2rem, 2vw, 2rem);
-    margin: 0;
 }
 
-article a {
-    outline: 0 dashed var(--color);
-    outline-offset: 0;
-    transition: outline-width 0.25s, outline-offset 0.25s;
+#bg {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background: url("./gitter.svg") center / cover;
+    box-shadow: inset 0 0 20px white;
+    pointer-events: none;
 }
 
-article a:hover {
-    outline-width: 5px;
-    outline-offset: 4px;
-    text-decoration: none;
+#intro {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: linear-gradient(rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0.525) 80%, transparent);
+    pointer-events: none;
+}
+
+#stage {
+    width: 90vw;
+}
+
+#stage #title {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    overflow: visible;
+}
+
+#letters {
+    fill: #6000bf;
+    stroke: #6000bf;
+    stroke-width: 0;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 4.6;
+    stroke-dasharray: 12.078 144.936;
+    paint-order: fill markers stroke;
 }
 
 header {
@@ -60,76 +94,45 @@ header {
     pointer-events: none;
 }
 
-main,
-#content {
-    height: 100dvh;
+main {
     max-width: 80rem;
-    margin: auto;
-    padding-top: calc(var(--title-h) + 1rem);
-
-    overflow-y: auto;
-    overflow-x: hidden;
-    scrollbar-width: none;
-
-    scroll-snap-type: y proximity;
-    scroll-behavior: smooth;
+    margin: 0 auto;
+    padding-top: var(--top-space);
 }
 
-main::-webkit-scrollbar,
-#content::-webkit-scrollbar {
-    display: none;
-}
-
-#intro {
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    background: linear-gradient(rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0.525) 80%, transparent);
-    pointer-events: none;
-}
-
-#stage {
-    position: relative;
-    width: 90vw;
-    height: 50vh;
-}
-
-#stage #title {
-    display: block;
-    width: 80%;
-    margin-top: 0.5%;
-    height: auto;
-    margin-left: 10%;
-    overflow: visible;
-}
-
-#letters {
-    fill: #6000bf;
-    stroke: #6000bf;
-    stroke-width: 0;
-    stroke-linejoin: bevel;
-    stroke-miterlimit: 4.6;
-    stroke-dasharray: 12.078 144.936;
-    paint-order: fill markers stroke;
-}
-
-#about {
-    background-color: white;
-    box-shadow: 1px 1px 10px white;
+footer {
+    max-width: 80rem;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
     text-align: center;
 }
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer a {
+    color: var(--color);
+    text-decoration: none;
+    padding: 1%;
+    text-underline-offset: 4px;
+    background-color: white;
+    box-shadow: 1px 1px 10px var(--color);
+}
+
+
 
 article {
     padding: 2rem;
     margin: 1rem;
     height: auto;
     background-color: white;
-
-    scroll-snap-align: bottom;
-
+    scroll-snap-align: start;
     box-shadow: 1px 1px 10px var(--color);
 }
 
@@ -152,6 +155,15 @@ article a {
     color: var(--color);
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
+    outline: 0 dashed var(--color);
+    outline-offset: 0;
+    transition: outline-width 0.25s, outline-offset 0.25s;
+}
+
+article a:hover {
+    outline-width: 5px;
+    outline-offset: 4px;
+    text-decoration: none;
 }
 
 h1 {
@@ -239,6 +251,11 @@ h2::after {
 
 #menu[hidden] {
     display: none;
+}
+
+#menu p {
+    margin: 0 0 0.5rem;
+    padding: 0 1rem;
 }
 
 #menu ul {
