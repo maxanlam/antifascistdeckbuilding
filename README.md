@@ -98,7 +98,7 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 - Einstellungen > Datenschutz > Verwendung deiner Daten zur Modellverbesserung deaktivieren
 
 
-### Grenzen und Probleme 
+### Grenzen und Probleme:
 
 - Einstellungen reduzieren Tracking und Datennutzung teilweise, bieten aber keine vollständige, und vor allem rückwirkende sowie wirklich transparent einsehbare, Kontrolle über die eigenen Daten. 
 - Nutzer:innen müssen sich kontinuierlich und bei jeder neuen Funktion erneut selbst schützen, während Geschäftsmodelle und Machtverhältnisse der Konzerne unverändert bestehen bleiben.
@@ -113,14 +113,14 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 
 **Aktueller Status (November 2026):** Beide Dienste sind seit Anfang November offenbar nicht erreichbar; die genaue Ursache ist bislang nicht verlässlich bestätigt.
 
-#### Fragliche Wirksamkeit
+#### Fragliche Wirksamkeit:
 Eher Outdated. Beide Tools bieten keinen zuverlässigen Schutz vor KI-Training, da ihre Schutzmechanismen durch technische Gegenmassnahmen umgangen werden können und sie bereits verbreitete Bildkopien nicht nachträglich schützen. Ausserdem: Glaze Kann durch die Stilverschleierung leichte visuelle Veränderungen verursachen, die je nach Bild auffallen können.
 
 ### Robots.txt
 
 Du kannst eine `robots.txt` in den Root-Verzeichnis deiner Website erstellen (`deine-domain.de/robots.txt`). Sie regelt, welche Bots welche Inhalte crawlen dürfen.
 
-#### Beispiele
+#### Beispiele.
 
 **Alle Bots sperren:**
 ```txt
@@ -163,8 +163,7 @@ Disallow: /backup/
 Disallow: /user-data/
 ```
 
-#### Hinweise
-
+#### Hinweise:
 - `User-agent: *` sperrt alle regelkonformen Crawler. Dadurch können auch Bilder aus der Google-Bildersuche verschwinden.
 - KI-Dienste lassen sich gezielt ansprechen, z. B. `GPTBot` (OpenAI), `ClaudeBot` (Anthropic) oder `CCBot` (Common Crawl).
 - **Keine Garantie:** Crawler können Regeln ignorieren oder ihre Identität verschleiern. `robots.txt` ist kein technischer Zugriffsschutz.
@@ -181,7 +180,6 @@ Für einen Kompletten ausstieg aus diesen Infrastrukturen empfiehlt es sich Föd
 [Mastodon](https://joinmastodon.org/de) ist ein dezentrales soziales Netzwerk ähnlich wie X (Twitter). Nutzer:innen können Beiträge veröffentlichen, anderen folgen und Inhalte teilen. Mastodon besteht aus vielen unabhängigen Servern, sogenannten Instanzen. Nutzer:innen können selbst entscheiden, welcher Instanz sie beitreten möchten. Die Plattform ist kostenlos, werbefrei und Open Source.
 
 #### Wichtig:
-
 - **Kein Algorithmus:** Einerseits beruhigender, kein Algo-Regime / weniger manipulative Feed-Steuerung. Andererseits gibt es dementsprechend weniger personalisierte Empfehlungen und Reichweite – man muss aktiver nach Nutzer:innen und Inhalten suchen.
 
 - **Viele Instanzen:** Unterschiedliche Regeln und Communities ermöglichen eine passende Umgebung. Eigene Codes of Conduct können für Safe Spaces sorgen und für eine intensivere, authentischere Gemeinschaft sorgen, die Auswahl kann anfangs aber etwas verwirrend sein.
