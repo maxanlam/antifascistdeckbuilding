@@ -8,7 +8,7 @@ gsap.fromTo("#letters",
         scrollTrigger: {
             scroller: "#content",
             start: 0,
-            end: 200,
+            end: 100,
             scrub: true
         }
     }
