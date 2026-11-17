@@ -12,6 +12,14 @@
 
 - Demokratisch gewählte Institutionen haben oft Schwierigkeiten, diese Macht effektiv zu kontrollieren.
 
+## Probleme mit Telegram
+
+- Telegram ist standardmäßig nicht Ende zu Ende verschlüsselt (Nachrichten sind serverseitig lesbar!)
+
+- Telegram arbeitet seit einigen Jahren mit Behörden zusammen und gibt Daten an diese weiter [link](https://cyberinsider.com/telegram-sharing-user-data-with-us-authorities/)
+
+- Unsere Daten sind der willkürlichen Entscheidung von Alex Durov ausgeliefert
+
 ## Liffle FS
 
 LittleSis ist eine Open-Source-Datenbank und Rechercheplattform, die Verflechtungen zwischen einflussreichen Personen und Organisationen aus Politik, Wirtschaft und Finanzwelt dokumentiert.
