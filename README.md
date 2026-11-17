@@ -1,20 +1,16 @@
 # Tech Against Fascism
 
-## Warum halten wir Big Tech für Faschistisch?
+## Big Tech & Autokratie
  
-1. Big Tech kontrolliert zentrale digitale Infrastrukturen und verfügt über enorme wirtschaftliche und politische Macht, ohne demokratisch legitimiert zu sein. Regierungen sind bei Überwachung und Sicherheit auf Tech-Konzerne angewiesen, wodurch staatliche und wirtschaftliche Interessen verschmelzen.
+1. Big Tech kontrolliert zentrale Infrastrukturen und besitzt enorme wirtschaftliche und politische Macht ohne demokratische Legitimation.
 
-2. Gesellschaftliche Kommunikation und sozialer Austausch konzentrieren sich zunehmend auf wenige digitale Plattformen, deren Regeln zentral und ohne demokratische Mitbestimmung der Nutzer:innen festgelegt werden. Wer sich diesen Plattformen entzieht, riskiert soziale Exklusion – es entsteht ein faktischer Zwang, sich ihren autoritären Strukturen zu unterwerfen.
+2. Digitale Plattformen bestimmen zentral die Bedingungen gesellschaftlicher Kommunikation und erzwingen durch soziale Abhängigkeit faktisch ihre Nutzung.
 
-3. Gesammelte Daten ermöglichen eine immer präzisere Verhaltenssteuerung. Algorithmen bestimmen die Sichtbarkeit von Inhalten, und die Aufmerksamkeitsökonomie begünstigt Emotionalisierung und Polarisierung.
+3. Daten und Algorithmen ermöglichen Verhaltenssteuerung, beeinflussen Sichtbarkeit und fördern durch die Aufmerksamkeitsökonomie Polarisierung.
 
+4. KI reproduziert und verstärkt gesellschaftliche Verzerrungen auf Basis intransparenter, oft ohne Zustimmung genutzter Daten – gilt aber weiterhin als neutral (vgl. [Nils Bolder](https://t3n.de/news/tech-philosoph-warnt-vor-den-folgen-von-ki-1700221/)).
 
-4. Mainstream-KI-Systeme werden mit grossen Datenmengen trainiert, deren Herkunft und Nutzungsrechte häufig nicht transparent sind und im Übrigen ohne ausdrückliche Zustimmung der Urheber:innen oder Betroffenen verwendet werden. 
-
-    - KI kann hierbei noch effektiver bestehende gesellschaftliche Verzerrungen reproduzieren und verstärken sowie ein verklärtes Bild von Vergangenheit und Gegenwart fortschreiben (»Mythos der Vergangenheit« [vgl. Nils Bolder](https://t3n.de/news/tech-philosoph-warnt-vor-den-folgen-von-ki-1700221/)); gelten aber weiterhin als völlig neutrale Technik.
-
-
-5. Gesellschaftliche und ethische Konflikte werden zu technischen Problemen erklärt und damit der demokratischen Aushandlung entzogen. Eine neue Fassung des [Techno Optimismus](https://en.wikipedia.org/wiki/Techno-Optimist_Manifesto) weniger Oligarchen, wird über unsere Würde und Freiheit als Menschen gestellt.
+5. Gesellschaftliche und ethische Konflikte werden technisiert und demokratischer Aushandlung entzogen. Der [Techno-Optimismus](https://en.wikipedia.org/wiki/Techno-Optimist_Manifesto) weniger Oligarchen stellt sich über menschliche Würde und Freiheit.
 
 
 ## Tech Regime Mappings 

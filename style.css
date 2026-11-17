@@ -390,6 +390,7 @@ blockquote p::after {
     right: 1vw;
     background: none;
     border: none;
+    z-index: 101;
     color: var(--color);
     cursor: pointer;
     font-size: clamp(1.8rem, 3.8vw, 2.3rem);
