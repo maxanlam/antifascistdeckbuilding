@@ -44,7 +44,7 @@
 
 ## Alternativen (Channels)
 
-- Da Signal keine Untergruppen unterstützt und Gruppengrößen begrenzt sidn, hält das manche größeren Gruppen vom Wechsel ab. Dafür gibt es zwei Alternative:
+- Da Signal keine Untergruppen unterstützt und Gruppengrössen begrenzt sind, hält das manche grösseren Gruppen vom Wechsel ab. Dafür gibt es zwei Alternativen:
 
 - [Matrix](https://matrix.org/) 
   - ist ein föderiertes Protokoll mit e2ee
@@ -53,7 +53,7 @@
   - Chat Metadaten werden an jeden Homeserver kopiert, deren User:innen teil des Channels sind (leicht auslesbar)
 
 - [mov.im](https://movim.eu/)
-  - ist ein Client/Bedienoberfläche für [xmpp](https://xmpp.org/), ist föderiert nutzt e2e Verschlüsselung
+  - ist ein Client/Bedienoberfläche für [xmpp](https://xmpp.org/), ist föderiert und nutzt e2e Verschlüsselung
   - funktioniert ähnlich wie discord und hat ein Blogging Feature
   - ein Account bei jeglichem [xmpp Provider](https://providers.xmpp.net/) reicht aus um mov.im zu benutzen
   - weniger weit verbreitet und buggier, nur als webapp verfügbar (es gibt andere [xmpp Clients (Bedienoberflächen)](https://xmpp.org/software/?category=clients), die aber nicht die gleichen Features anbieten)
@@ -63,7 +63,14 @@
 
 Es gibt viele offene und sichere Optionen um von Telegram fort zu kommen. Den Netzwerkeffekt können wir nur durch kollektiven Wechsel bekämpfen. 
 
-**Vor Staatstrojanern oder direkten Zugriff aufs Handy durch andere kann uns kein Messenger schützen!** Trotzdem lohnt es sich sicherer Alternativen zu benutzen.
+## Weitere Ressourcen
+
+### Kollaborationstools
+
+- [framasoft](https://framasoft.org/en/) (entwickelt peerTube) bietet unter [Entgoogle das Internet](https://degooglisons-internet.org/de/) viele spendenbasierte Dienste an
+- [chatons](https://entraide.chatons.org/en/) hostet dezentralisiert Dienste
+
+**Vor Staatstrojanern oder direkten Zugriff aufs Handy durch andere kann uns kein Messenger schützen!** Trotzdem lohnt es sich sicherere Alternativen zu benutzen.
 
 
 ## Liffle FS
