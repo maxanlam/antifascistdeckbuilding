@@ -108,7 +108,7 @@ Der Browser sieht fast alles, was du im Netz tust. Ein Wechsel weg von Chrome pl
 - Einstellungen > Datenschutz > Verwendung deiner Daten zur Modellverbesserung deaktivieren
 
 
-### Grenzen und Probleme:
+#### Grenzen und Probleme:
 
 - Einstellungen reduzieren Tracking und Datennutzung teilweise, bieten aber keine vollständige, und vor allem rückwirkende sowie wirklich transparent einsehbare, Kontrolle über die eigenen Daten. 
 - Nutzer:innen müssen sich kontinuierlich und bei jeder neuen Funktion erneut selbst schützen, während Geschäftsmodelle und Machtverhältnisse der Konzerne unverändert bestehen bleiben.
