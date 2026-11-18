@@ -210,11 +210,6 @@ RewriteRule .* - [F,L]
 #### Fragliche Wirksamkeit:
 Eher Outdated. Beide Tools bieten keinen zuverlässigen Schutz vor KI-Training, da ihre Schutzmechanismen durch technische Gegenmassnahmen umgangen werden können und sie bereits verbreitete Bildkopien nicht nachträglich schützen. Ausserdem: Glaze Kann durch die Stilverschleierung leichte visuelle Veränderungen verursachen, die je nach Bild auffallen können.
 
-### Mist
-
-- [Mist (V2)](https://github.com/psyker-team/mist-v2) – Open-Source-Tool, das Bilder minimal verändert, damit KI-Modelle den Stil nicht per Feintuning (LoRA, DreamBooth, SDEdit) nachahmen können. Anders als Glaze und Nightshade läuft es lokal und ist nicht auf einen zentralen Dienst angewiesen.
-
-**Aktueller Status (18.11.2026):** Das offizielle Colab-Notebook ist gelöscht. Wie aktiv das Projekt noch gepflegt wird, ist unklar.
 
 #### Installation: Vorsicht
 - Aufwändig: Windows-Paket (Nvidia-GPU ab 6 GB VRAM), Installation per Python/conda oder langsame CPU-Variante, etwa 3 bis 5 Minuten pro Bild.
