@@ -30,6 +30,8 @@ LittleSis ist eine Open-Source-Datenbank und Rechercheplattform, die Verflechtun
 
 - https://littlesis.org/home
 
+Complex web of AI figures:
+
 - https://littlesis.org/oligrapher/10454-complex-web-of-ai-figures 
 
 Mapping Trump's crypto empire:

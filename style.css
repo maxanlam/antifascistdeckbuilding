@@ -376,6 +376,7 @@ blockquote p::after {
 
 #menu li a.h2 {
     font-size: calc(var(--u) * 1.6);
+    line-height: 130%;
     font-family: "Trattatello", "Apple Chancery", serif;
 }
 
@@ -459,6 +460,11 @@ blockquote p::after {
 
         h2 {
         font-size: 5vw !important;
+    }
+
+    #stage #title {
+        width: 100%;
+        margin-left: 0;
     }
 }
 
