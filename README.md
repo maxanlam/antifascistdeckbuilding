@@ -10,7 +10,7 @@ Big Tech besitzt zentralisierte, authoritär durchgeführte Infrastrukturen und 
 
 ### Leseempfehlung: Fighting Tech Fascism
 
-Veröffentlcht am 14.Mai 2025 von Jürgen Geuter aka @tante:
+Veröffentlcht am 14. Mai 2025 von Jürgen Geuter aka @tante:
  - https://error417.expectation.fail/406/tech-fascism-not-acceptable/essay-refusing-tech-fascism-by-tante
 
 
