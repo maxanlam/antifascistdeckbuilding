@@ -1,25 +1,5 @@
 # Tech Against Fascism
 
-## Mapping Tech Regime Fascism
-
-### warum ist Big Tech faschistisch bzw. faschistoid?
-
-- Big-Tech-Konzerne kontrollieren zentrale Infrastrukturen des gesellschaftlichen Lebens.
-
-- Sie verfügen über enorme finanzielle Ressourcen und politischen Einfluss.
-
-- Sie können öffentliche Kommunikation und wirtschaftliche Teilhabe durch ihre Plattformregeln beeinflussen.
-
-- Demokratisch gewählte Institutionen haben oft Schwierigkeiten, diese Macht effektiv zu kontrollieren.
-
-## Probleme mit Telegram
-
-- Telegram ist standardmässig nicht Ende zu Ende (e2e) verschlüsselt (Nachrichten sind serverseitig lesbar!)
-
-- Telegram arbeitet seit einigen Jahren mit Behörden zusammen und gibt Daten an diese weiter ([link](https://cyberinsider.com/telegram-sharing-user-data-with-us-authorities/))
-
-- Unsere Daten sind der willkürlichen Entscheidung von Alex Durov ausgeliefert
-
 ## Wieso fällt uns wechseln so schwer?
 
 ### Vendor Lock-In
@@ -29,6 +9,14 @@
 - Datensilo: Unsere ganzen Chats/Profildaten sind dort gespeichert
 
 - Deswegen suchen wir nach open source und (am besten) föderierten/interoperablen Services, wägen diese aber auch gegen Sicherheit ab
+
+## Probleme mit Telegram
+
+- Telegram ist standardmässig nicht Ende zu Ende (e2e) verschlüsselt (Nachrichten sind serverseitig lesbar!)
+
+- Telegram arbeitet seit einigen Jahren mit Behörden zusammen und gibt Daten an diese weiter ([link](https://cyberinsider.com/telegram-sharing-user-data-with-us-authorities/))
+
+- Unsere Daten sind der willkürlichen Entscheidung von Alex Durov ausgeliefert
 
 ## Alternativen (Privat Chats)
 
@@ -62,21 +50,12 @@
 ## Fazit Messenger
 
 Es gibt viele offene und sichere Optionen um von Telegram fort zu kommen. Den Netzwerkeffekt können wir nur durch kollektiven Wechsel bekämpfen. 
+**Vor Staatstrojanern oder direkten Zugriff aufs Handy durch andere kann uns kein Messenger schützen!** Trotzdem lohnt es sich sicherere Alternativen zu benutzen.
 
 ## Weitere Ressourcen
 
 ### Kollaborationstools
 
-- [framasoft](https://framasoft.org/en/) (entwickelt peerTube) bietet unter [Entgoogle das Internet](https://degooglisons-internet.org/de/) viele spendenbasierte Dienste an
+- [framasoft](https://framasoft.org/en/) (entwickelt peerTube) bietet unter [Entgoogle das Internet](https://degooglisons-internet.org/) viele spendenbasierte Dienste an
 - [chatons](https://entraide.chatons.org/en/) hostet dezentralisiert Dienste
 
-**Vor Staatstrojanern oder direkten Zugriff aufs Handy durch andere kann uns kein Messenger schützen!** Trotzdem lohnt es sich sicherere Alternativen zu benutzen.
-
-
-## Liffle FS
-
-LittleSis ist eine Open-Source-Datenbank und Rechercheplattform, die Verflechtungen zwischen einflussreichen Personen und Organisationen aus Politik, Wirtschaft und Finanzwelt dokumentiert.
-
-- https://littlesis.org/home
-
-- https://littlesis.org/oligrapher/10454-complex-web-of-ai-figures 
