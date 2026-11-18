@@ -13,6 +13,12 @@
     font-weight: bold;
 }
 
+
+@font-face {
+    font-family: "altTratt";
+    src: url("./IMFellDWPica-Italic.ttf");
+}
+
 :root {
     --color: #6000bfff;
     --background: white;
@@ -187,7 +193,7 @@ h2 {
 
     background-color: white;
     padding: 0 10px;
-    font-family: "Trattatello", "Apple Chancery", serif;
+    font-family: "Trattatello", "Apple Chancery", "altTratt", serif;
     box-shadow: 1px 1px 40px white;
 }
 
@@ -379,7 +385,7 @@ blockquote p::after {
     border-radius: 10px;
     transition: background 0.2s, padding 0.2s;
     padding: 3%;
-    font-family: "Trattatello", "Apple Chancery", serif;
+    font-family: "Trattatello", "Apple Chancery", "altTratt", serif;
     font-size: clamp(2rem, 4vw, 2.5rem);
     display: inline-block;
     cursor: pointer;
@@ -389,7 +395,7 @@ blockquote p::after {
 #menu li a.h2 {
     font-size: calc(var(--u) * 1.6);
     line-height: 130%;
-    font-family: "Trattatello", "Apple Chancery", serif;
+    font-family: "Trattatello", "Apple Chancery", "altTratt", serif;
 }
 
 #descriptionLink:hover {

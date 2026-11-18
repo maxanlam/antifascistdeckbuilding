@@ -198,6 +198,11 @@ RewriteRule .* - [F,L]
 - Wirkt nur bei ehrlichem User-Agent, getarnte Crawler kommen auch heir easy durch.
 - Risiko: Tippfehler = Fehler 500. Vorher Kopie der Datei machen und die Seite danach testen.
 
+
+### A Fly Like Thee
+
+[A Fly Like Thee](https://webresidencies.akademie-solitude.de/a-fly-like-thee/) von Olivier Jonvaux ist ein Open-Source-Plugin, das KI-Crawler erkennt, ihnen statt der Website-Inhalte vier Verse aus William Blakes Gedicht The Fly liefert und jeden Bot durch eine animierte Fliege sichtbar macht
+
 ## +weitere KI-Gegenschritte
 
 ### Nightshade & Glaze
@@ -209,6 +214,7 @@ RewriteRule .* - [F,L]
 
 #### Fragliche Wirksamkeit:
 Eher Outdated. Beide Tools bieten keinen zuverlässigen Schutz vor KI-Training, da ihre Schutzmechanismen durch technische Gegenmassnahmen umgangen werden können und sie bereits verbreitete Bildkopien nicht nachträglich schützen. Ausserdem: Glaze Kann durch die Stilverschleierung leichte visuelle Veränderungen verursachen, die je nach Bild auffallen können.
+
 
 ## Strategie 2: Alternativen & Federation 
 
