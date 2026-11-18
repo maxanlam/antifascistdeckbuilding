@@ -210,17 +210,6 @@ RewriteRule .* - [F,L]
 #### Fragliche Wirksamkeit:
 Eher Outdated. Beide Tools bieten keinen zuverlässigen Schutz vor KI-Training, da ihre Schutzmechanismen durch technische Gegenmassnahmen umgangen werden können und sie bereits verbreitete Bildkopien nicht nachträglich schützen. Ausserdem: Glaze Kann durch die Stilverschleierung leichte visuelle Veränderungen verursachen, die je nach Bild auffallen können.
 
-
-#### Installation: Vorsicht
-- Aufwändig: Windows-Paket (Nvidia-GPU ab 6 GB VRAM), Installation per Python/conda oder langsame CPU-Variante, etwa 3 bis 5 Minuten pro Bild.
-- Das Windows-Paket liegt auf Google Drive. Wer Google meiden will, muss aus dem Quellcode installieren.
-- Colab-Notebooks von Dritten können Code ausführen und auf Drive oder Zugangsdaten zugreifen. Vorher den Code prüfen, Drive nicht freigeben, am besten ein Wegwerf-Konto nutzen.
-
-#### Fragliche Wirksamkeit:
-- Schützt nur gegen Stilkopie per Feintuning, nicht gegen das Training grosser Modelle.
-- Laut Entwicklern nur Mehraufwand für Angreifer, keine unabhängigen Belege.
-- Schutz kann umgangen werden, veröffentlichte Bilder bleiben ungeschützt.
-
 ## Strategie 2: Alternativen & Federation 
 
 ### Zentrale Netwerke vs. Federation 
