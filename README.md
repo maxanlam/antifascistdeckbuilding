@@ -41,7 +41,7 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 ![image](https://multinationales.org/local/adapt-img/960/20x/IMG/jpg/palantir-en.jpg@.webp?1780904976)
 
 
-## Strategie 1: Opting Out & Objecting
+## Strategie 1: Opt Out & Objecting
 
 
 ### Allgemeine Privatsphäre bei (kommerziellen) Anbietern
@@ -198,7 +198,7 @@ RewriteRule .* - [F,L]
 - Wirkt nur bei ehrlichem User-Agent, getarnte Crawler kommen auch heir easy durch.
 - Risiko: Tippfehler = Fehler 500. Vorher Kopie der Datei machen und die Seite danach testen.
 
-## +weitere KI-Counter-Measures
+## +weitere KI-Gegenschritte
 
 ### Nightshade & Glaze
 
