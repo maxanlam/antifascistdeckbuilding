@@ -80,7 +80,7 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 Der Browser sieht fast alles, was du im Netz tust. Ein Wechsel weg von Chrome plus Tracker-Blocker reduziert das Datensammeln deutlich.
 
 - [Firefox](https://www.mozilla.org/de/firefox/) – Open Source. Datenschutz auf "Streng" stellen.
-- [Brave](https://brave.com/de/) – Blockt Werbung und Tracker schon standardmäßig.
+- [Brave](https://brave.com/de/) – Blockt Werbung und Tracker schon standardmässig.
 - [uBlock Origin](https://ublockorigin.com/) – Blockt Werbung und Tracker, in Firefox am besten.
 - VPN – Verbirgt deine IP vor besuchten Seiten (aber nicht vor dem VPN-Anbieter selbst). Geprüfte Anbieter sind z.B.: [Mullvad](https://mullvad.net/), [IVPN](https://www.ivpn.net/), [Proton VPN](https://protonvpn.com/). 
 - integrierter Firefox VPN: **eher als Zusatz*. Kostenloses, nur im Browser wirkendes VPN, 50 GB pro Monat. Neuer Dienst von Mozilla selbst, Kritiker bemängeln, dass er noch ungeprüft ist.
@@ -140,7 +140,7 @@ User-agent: GPTBot
 Disallow: /
 ```
 
-**KI-Crawler von Bildern ausschließen:**
+**KI-Crawler von Bildern ausschliessen:**
 ```txt
 User-agent: GPTBot
 Disallow: /images/
