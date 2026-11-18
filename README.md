@@ -119,7 +119,7 @@ Der Browser sieht fast alles, was du im Netz tust. Ein Wechsel weg von Chrome pl
 
 Du kannst eine `robots.txt` in den Root-Verzeichnis deiner Website erstellen (`deine-domain.de/robots.txt`). Sie regelt, welche Bots welche Inhalte crawlen dürfen.
 
-#### Beispiele.
+#### Beispiele
 
 **Alle Bots sperren:**
 ```txt
