@@ -6,9 +6,9 @@
 
 ### Big Tech & Autokratie 
 
-Big Tech besitzt zentralisierte, authoritär durchgeführte Infrastrukturen und enorme Macht ohne demokratische Legitimation und ist eng mit Regierungen verflochten, die selbst oft autoritär oder faschistoid agieren. Durch soziale Abhängigkeit erzwingt sie faktisch ihre Nutzung, steuert über das sammeln unserer Daten und der einführung von Algorithmen Verhalten und fördert Polarisierung. Zudem verstärkt KI gesellschaftliche Verzerrungen auf intransparenter, ungefragt genutzter Datenbasis, gilt aber weiterhin als neutral.
+Big Tech besitzt zentralisierte, authoritär durchgeführte Infrastrukturen und enorme Macht ohne demokratische Legitimation und ist eng mit Systemen oder Menschen verflochten, die selbst oft autoritär oder faschistoid agieren. Durch soziale Abhängigkeit erzwingt sie faktisch ihre Nutzung, steuert über das sammeln unserer Daten und der einführung von Algorithmen Verhalten und fördert Polarisierung. Zudem verstärkt KI gesellschaftliche Verzerrungen auf intransparenter, ungefragt genutzter Datenbasis, gilt aber weiterhin als neutral.
 
-### Fighting Tech Fascism
+### Leseempfehlung: Fighting Tech Fascism
 
 Veröffentlcht am 14.Mai 2025 von Jürgen Geuter aka @tante:
  - https://error417.expectation.fail/406/tech-fascism-not-acceptable/essay-refusing-tech-fascism-by-tante
