@@ -75,18 +75,18 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 - Mikrofon / Kamera > Zugriffe nicht benötigter Apps entziehen
 
 
-### Browser: Firefox oder Brave + uBlock Origin + VPN
+### Browser: Firefox + uBlock Origin + VPN
 
 Der Browser sieht fast alles, was du im Netz tust. Ein Wechsel weg von Chrome plus Tracker-Blocker reduziert das Datensammeln deutlich.
 
 - [Firefox](https://www.mozilla.org/de/firefox/) – Open Source. Datenschutz auf "Streng" stellen.
-- [Brave](https://brave.com/de/) – Blockt Werbung und Tracker schon standardmässig.
 - [uBlock Origin](https://ublockorigin.com/) – Blockt Werbung und Tracker, in Firefox am besten.
-- VPN – Verbirgt deine IP vor besuchten Seiten (aber nicht vor dem VPN-Anbieter selbst). Geprüfte Anbieter sind z.B.: [Mullvad](https://mullvad.net/), [IVPN](https://www.ivpn.net/), [Proton VPN](https://protonvpn.com/). 
+- VPN – Verbirgt deine IP vor besuchten Seiten (aber nicht vor dem VPN-Anbieter selbst) 
+    -[RiseUpVPN (BETA)](https://riseup.net/de/vpn ) ist ein kostenloser, quelloffener VPN-Dienst, der vom autonomen Technik-Kollektiv Riseup.net betrieben wird. Er finanziert sich ausschließlich über freiwillige Spenden.
 - integrierter Firefox VPN: **eher als Zusatz*. Kostenloses, nur im Browser wirkendes VPN, 50 GB pro Monat. Neuer Dienst von Mozilla selbst, Kritiker bemängeln, dass er noch ungeprüft ist.
 
 #### Grenzen:
-- Beide Browser hängen an Big Tech: Firefox finanziell an Google, Brave technisch an Chromium.
+- Firefox hängt finanziell an Google
 - Blocker verhindern nicht, dass Seiten dich per Login, Fingerprint oder IP erkennen.
 - Ein VPN verlagert das Vertrauen vom Internetanbieter zum VPN-Anbieter. 
 
