@@ -20,11 +20,12 @@ menu.addEventListener("click", (event) => {
 }); 
 
 
+
+// fetch & parse readme
 async function loadReadme() {
 
     try {
 
-        // Fetch README.md
         const response = await fetch("./README.md");
 
         if (!response.ok) {
@@ -33,10 +34,10 @@ async function loadReadme() {
 
         const markdown = await response.text();
 
-        // Convert Markdown to HTML
+
         const html = marked.parse(markdown);
 
-        // Parse HTML
+
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, "text/html");
 
@@ -47,14 +48,14 @@ async function loadReadme() {
 
         let currentArticle = null;
 
-        // Ignore everything before first H2
+
         elements.forEach(element => {
 
             if (element.tagName === "H3" || element.tagName === "H2") {
 
                 currentArticle = document.createElement("article");
 
-                // Create ID from heading
+
                 const id = element.textContent
                     .toLowerCase()
                     .trim()
@@ -79,7 +80,7 @@ async function loadReadme() {
                 menuList.appendChild(li);
             }
 
-            // Put heading and following content inside article
+
             if (currentArticle) {
                 currentArticle.appendChild(element);
             }
@@ -133,7 +134,6 @@ function setupMenu() {
 
     });
 
-    // Close menu after clicking a link
     document.querySelectorAll("#menu a").forEach(link => {
 
         link.addEventListener("click", () => {
