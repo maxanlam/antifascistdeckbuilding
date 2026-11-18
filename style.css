@@ -158,6 +158,9 @@ article {
 code {
     background-color: rgb(235, 234, 234);
     display: inline;
+    white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
     font-size: clamp(18px, 1.6vw, 30px);
 }
 

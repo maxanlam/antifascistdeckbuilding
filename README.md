@@ -91,7 +91,7 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 - Profilbild > Einstellungen und Datenschutz > Datenschutz > Daten zur Verbesserung generativer KI > Aus
 
 #### ChatGPT
-- Profil > Einstellungen > Datenkontrollen > >>Das Modell für alle verbessern<< > Aus
+- Profil > Einstellungen > Datenkontrollen > Das Modell für alle verbessern > Aus
 
 #### Google Gemini
 - Gemini > Einstellungen > Gemini-Apps-Aktivität > Keep Activity deaktivieren
@@ -117,6 +117,23 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 
 #### Fragliche Wirksamkeit:
 Eher Outdated. Beide Tools bieten keinen zuverlässigen Schutz vor KI-Training, da ihre Schutzmechanismen durch technische Gegenmassnahmen umgangen werden können und sie bereits verbreitete Bildkopien nicht nachträglich schützen. Ausserdem: Glaze Kann durch die Stilverschleierung leichte visuelle Veränderungen verursachen, die je nach Bild auffallen können.
+
+### Mist
+
+- [Mist (V2)](https://github.com/psyker-team/mist-v2) – Open-Source-Tool, das Bilder minimal verändert, damit KI-Modelle den Stil nicht per Feintuning (LoRA, DreamBooth, SDEdit) nachahmen können. Anders als Glaze und Nightshade läuft es lokal und ist nicht auf einen zentralen Dienst angewiesen.
+
+**Aktueller Status (18.11.2026):** Das offizielle Colab-Notebook ist gelöscht. Wie aktiv das Projekt noch gepflegt wird, ist unklar.
+
+#### Installation: Vorsicht
+- Aufwändig: Windows-Paket (Nvidia-GPU ab 6 GB VRAM), Installation per Python/conda oder langsame CPU-Variante, etwa 3 bis 5 Minuten pro Bild.
+- Das Windows-Paket liegt auf Google Drive. Wer Google meiden will, muss aus dem Quellcode installieren.
+- Colab-Notebooks von Dritten können Code ausführen und auf Drive oder Zugangsdaten zugreifen. Vorher den Code prüfen, Drive nicht freigeben, am besten ein Wegwerf-Konto nutzen.
+
+#### Fragliche Wirksamkeit:
+- Schützt nur gegen Stilkopie per Feintuning, nicht gegen das Training grosser Modelle.
+- Laut Entwicklern nur Mehraufwand für Angreifer, keine unabhängigen Belege.
+- Schutz kann umgangen werden, veröffentlichte Bilder bleiben ungeschützt.
+
 
 ### Robots.txt
 
@@ -169,6 +186,37 @@ Disallow: /user-data/
 - `User-agent: *` sperrt alle regelkonformen Crawler. Dadurch können auch Bilder aus der Google-Bildersuche verschwinden.
 - KI-Dienste lassen sich gezielt ansprechen, z. B. `GPTBot` (OpenAI), `ClaudeBot` (Anthropic) oder `CCBot` (Common Crawl).
 - **Keine Garantie:** Crawler können Regeln ignorieren oder ihre Identität verschleiern. `robots.txt` ist kein technischer Zugriffsschutz.
+
+
+### Aktuelle Bot-Liste: 
+
+[ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt)
+
+
+### .htaccess
+
+Anders als `robots.txt` ist das keine Bitte, sondern wird vom Server durchgesetzt. Die Datei `.htaccess` liegt im Root-Verzeichnis der Website (nur Apache/LiteSpeed, bei nginx wirkungslos).
+
+**KI-Bots sperren:**
+```apache
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} (GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|CCBot|Bytespider|Amazonbot|PerplexityBot|meta-externalagent|Diffbot|ImagesiftBot) [NC]
+RewriteRule .* - [F,L]
+</IfModule>
+```
+
+**Einfache Scraper sperren:**
+```apache
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} ^$ [OR]
+RewriteCond %{HTTP_USER_AGENT} ^(python-requests|Scrapy|Go-http-client) [NC]
+RewriteRule .* - [F,L]
+</IfModule>
+```
+- Wirkt nur bei ehrlichem User-Agent, getarnte Crawler kommen auch heir easy durch.
+- Risiko: Tippfehler = Fehler 500. Vorher Kopie der Datei machen und die Seite danach testen.
 
 ## Strategie 2: Alternativen & Federation 
 
