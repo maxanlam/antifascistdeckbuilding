@@ -256,14 +256,21 @@ Für einen Kompletten ausstieg aus diesen Infrastrukturen empfiehlt es sich Föd
   - ist ein Client/Bedienoberfläche für [xmpp](https://xmpp.org/), ist föderiert und nutzt e2e Verschlüsselung
   - funktioniert ähnlich wie discord und hat ein Blogging Feature
   - ein Account bei jeglichem [xmpp Provider](https://providers.xmpp.net/) reicht aus um mov.im zu benutzen
-  - weniger weit verbreitet und buggier, nur als webapp verfügbar (es gibt andere [xmpp Clients (Bedienoberflächen)](https://xmpp.org/software/?category=clients), die aber nicht die gleichen Features anbieten)
+  - weniger weit verbreitet und buggier, nur als webapp verfügbar (es gibt andere [xmpp Clients (Bedienoberflächen)](https://xmpp.org/software/?category=clients), die aber nicht die gleichen Channel Features anbieten)
   - Metadaten sind nicht komplett sicher
 
-- Slack ähnliche Anwendungen
+- Slack ähnliche Anwendungen, die explizit auf Gruppenchat fokussiert sind (pro Community ein Account)
   - diese müssen entweder selbst gehostet werden oder ein Anbieter gefunden werden, wo es gehostet wird (hier aufpassen was für daten gesammelt werden!)
   - [mattermost](https://mattermost.com/)
-    - z.B. bei framasoft gehostet ([link](https://framateam.org/login)
+    - z.B. bei framasoft gehostet ([link](https://framateam.org/login))
   - [zulip](https://zulip.com/)
+
+- [Matrix](https://matrix.org/) (keine komplette Empfehlung)
+  - ist ein föderiertes Protokoll mit e2ee
+  - schon weit verbreitet, viele [Homeserver](https://servers.joinmatrix.org/) zur Auswahl
+  - Die Burg betreibt auch einen eigenen [Matrix Server](https://matrix.burg-halle.de/#/welcome), der mit den studi Zugangsdaten benutzbar ist
+  - Chat Metadaten werden an jeden Homeserver kopiert, deren User:innen teil des Channels sind (leicht auslesbar)
+  - Ist nicht DSGVO konform, erfüllt nicht das Recht auf Vergessen ([link](https://www.cr-online.de/blog/2022/06/02/ein-fehler-in-der-matrix/))
 
 
 ### Wieso fällt uns wechseln so schwer?
