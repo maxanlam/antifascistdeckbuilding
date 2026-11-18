@@ -5,15 +5,8 @@
 ## Ausgangslage: 
 
 ### Big Tech & Autokratie 
- 
-1. Big Tech sind zentralisierte Infrastrukturen und besitzten enorme wirtschaftliche und politische Macht ohne demokratische Legitimation. Sie bestimmen die Bedingungen gesellschaftlicher Kommunikation und erzwingen durch soziale Abhängigkeit faktisch ihre Nutzung.
 
-3. Daten und Algorithmen ermöglichen Verhaltenssteuerung, beeinflussen Sichtbarkeit und fördern durch die Aufmerksamkeitsökonomie Polarisierung.
-
-4. KI reproduziert und verstärkt gesellschaftliche Verzerrungen auf Basis intransparenter, oft ohne Zustimmung genutzter Daten – gilt aber weiterhin als neutral (vgl. [Nils Bolder](https://t3n.de/news/tech-philosoph-warnt-vor-den-folgen-von-ki-1700221/)).
-
-5. Gesellschaftliche und ethische Konflikte werden technisiert und demokratischer Aushandlung entzogen. Der [Techno-Optimismus](https://en.wikipedia.org/wiki/Techno-Optimist_Manifesto) weniger Oligarchen stellt sich über menschliche Würde und Freiheit.
-
+Big Tech besitzt zentralisierte, authoritär durchgeführte Infrastrukturen und enorme Macht ohne demokratische Legitimation und ist eng mit Regierungen verflochten, die selbst oft autoritär oder faschistoid agieren. Durch soziale Abhängigkeit erzwingt sie faktisch ihre Nutzung, steuert über das sammeln unserer Daten und der einführung von Algorithmen Verhalten und fördert Polarisierung. Zudem verstärkt KI gesellschaftliche Verzerrungen auf intransparenter, ungefragt genutzter Datenbasis, gilt aber weiterhin als neutral.
 
 ### Fighting Tech Fascism
 
@@ -48,7 +41,7 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 ![image](https://multinationales.org/local/adapt-img/960/20x/IMG/jpg/palantir-en.jpg@.webp?1780904976)
 
 
-## Strategie 1: Opting Out
+## Strategie 1: Opting Out & Objecting
 
 
 ### Allgemeine Privatsphäre bei (kommerziellen) Anbietern
@@ -82,6 +75,21 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 - Mikrofon / Kamera > Zugriffe nicht benötigter Apps entziehen
 
 
+### Browser: Firefox oder Brave + uBlock Origin + VPN
+
+Der Browser sieht fast alles, was du im Netz tust. Ein Wechsel weg von Chrome plus Tracker-Blocker reduziert das Datensammeln deutlich.
+
+- [Firefox](https://www.mozilla.org/de/firefox/) – Open Source. Datenschutz auf "Streng" stellen.
+- [Brave](https://brave.com/de/) – Blockt Werbung und Tracker schon standardmäßig.
+- [uBlock Origin](https://ublockorigin.com/) – Blockt Werbung und Tracker, in Firefox am besten.
+- VPN – Verbirgt deine IP vor besuchten Seiten (aber nicht vor dem VPN-Anbieter selbst). Geprüfte Anbieter sind z.B.: [Mullvad](https://mullvad.net/), [IVPN](https://www.ivpn.net/), [Proton VPN](https://protonvpn.com/). 
+- integrierter Firefox VPN: **eher als Zusatz*. Kostenloses, nur im Browser wirkendes VPN, 50 GB pro Monat. Neuer Dienst von Mozilla selbst, Kritiker bemängeln, dass er noch ungeprüft ist.
+
+#### Grenzen:
+- Beide Browser hängen an Big Tech: Firefox finanziell an Google, Brave technisch an Chromium.
+- Blocker verhindern nicht, dass Seiten dich per Login, Fingerprint oder IP erkennen.
+- Ein VPN verlagert das Vertrauen vom Internetanbieter zum VPN-Anbieter. 
+
 ### KI-Objection
 
 #### Instagram & Facebook (Meta)
@@ -105,34 +113,6 @@ Palantir, a Big Tech company at the heart of the Trump administration:
 - Einstellungen reduzieren Tracking und Datennutzung teilweise, bieten aber keine vollständige, und vor allem rückwirkende sowie wirklich transparent einsehbare, Kontrolle über die eigenen Daten. 
 - Nutzer:innen müssen sich kontinuierlich und bei jeder neuen Funktion erneut selbst schützen, während Geschäftsmodelle und Machtverhältnisse der Konzerne unverändert bestehen bleiben.
 
-
-## +weitere KI-Counter-Measures
-
-### Nightshade & Glaze
-
-- [Nightshade](https://nightshade.cs.uchicago.edu/) – Verändert Bilder durch gezielte Pixelmanipulationen (»Data-Poisioning«) um KI-Trainingsdaten zu verfälschen und das Training an den eigenen Werken zu erschweren.
-- [Glaze](https://glaze.cs.uchicago.edu/) – Verändert minimale visuelle Bildmerkmale, sodass KI-Modelle den individuellen Kunststil möglichst schwer imitieren können.
-
-**Aktueller Status (November 2026):** Beide Dienste sind seit Anfang November offenbar nicht erreichbar; die genaue Ursache ist bislang nicht verlässlich bestätigt.
-
-#### Fragliche Wirksamkeit:
-Eher Outdated. Beide Tools bieten keinen zuverlässigen Schutz vor KI-Training, da ihre Schutzmechanismen durch technische Gegenmassnahmen umgangen werden können und sie bereits verbreitete Bildkopien nicht nachträglich schützen. Ausserdem: Glaze Kann durch die Stilverschleierung leichte visuelle Veränderungen verursachen, die je nach Bild auffallen können.
-
-### Mist
-
-- [Mist (V2)](https://github.com/psyker-team/mist-v2) – Open-Source-Tool, das Bilder minimal verändert, damit KI-Modelle den Stil nicht per Feintuning (LoRA, DreamBooth, SDEdit) nachahmen können. Anders als Glaze und Nightshade läuft es lokal und ist nicht auf einen zentralen Dienst angewiesen.
-
-**Aktueller Status (18.11.2026):** Das offizielle Colab-Notebook ist gelöscht. Wie aktiv das Projekt noch gepflegt wird, ist unklar.
-
-#### Installation: Vorsicht
-- Aufwändig: Windows-Paket (Nvidia-GPU ab 6 GB VRAM), Installation per Python/conda oder langsame CPU-Variante, etwa 3 bis 5 Minuten pro Bild.
-- Das Windows-Paket liegt auf Google Drive. Wer Google meiden will, muss aus dem Quellcode installieren.
-- Colab-Notebooks von Dritten können Code ausführen und auf Drive oder Zugangsdaten zugreifen. Vorher den Code prüfen, Drive nicht freigeben, am besten ein Wegwerf-Konto nutzen.
-
-#### Fragliche Wirksamkeit:
-- Schützt nur gegen Stilkopie per Feintuning, nicht gegen das Training grosser Modelle.
-- Laut Entwicklern nur Mehraufwand für Angreifer, keine unabhängigen Belege.
-- Schutz kann umgangen werden, veröffentlichte Bilder bleiben ungeschützt.
 
 
 ### Robots.txt
@@ -217,6 +197,34 @@ RewriteRule .* - [F,L]
 ```
 - Wirkt nur bei ehrlichem User-Agent, getarnte Crawler kommen auch heir easy durch.
 - Risiko: Tippfehler = Fehler 500. Vorher Kopie der Datei machen und die Seite danach testen.
+
+## +weitere KI-Counter-Measures
+
+### Nightshade & Glaze
+
+- [Nightshade](https://nightshade.cs.uchicago.edu/) – Verändert Bilder durch gezielte Pixelmanipulationen (»Data-Poisioning«) um KI-Trainingsdaten zu verfälschen und das Training an den eigenen Werken zu erschweren.
+- [Glaze](https://glaze.cs.uchicago.edu/) – Verändert minimale visuelle Bildmerkmale, sodass KI-Modelle den individuellen Kunststil möglichst schwer imitieren können.
+
+**Aktueller Status (November 2026):** Beide Dienste sind seit Anfang November offenbar nicht erreichbar; die genaue Ursache ist bislang nicht verlässlich bestätigt.
+
+#### Fragliche Wirksamkeit:
+Eher Outdated. Beide Tools bieten keinen zuverlässigen Schutz vor KI-Training, da ihre Schutzmechanismen durch technische Gegenmassnahmen umgangen werden können und sie bereits verbreitete Bildkopien nicht nachträglich schützen. Ausserdem: Glaze Kann durch die Stilverschleierung leichte visuelle Veränderungen verursachen, die je nach Bild auffallen können.
+
+### Mist
+
+- [Mist (V2)](https://github.com/psyker-team/mist-v2) – Open-Source-Tool, das Bilder minimal verändert, damit KI-Modelle den Stil nicht per Feintuning (LoRA, DreamBooth, SDEdit) nachahmen können. Anders als Glaze und Nightshade läuft es lokal und ist nicht auf einen zentralen Dienst angewiesen.
+
+**Aktueller Status (18.11.2026):** Das offizielle Colab-Notebook ist gelöscht. Wie aktiv das Projekt noch gepflegt wird, ist unklar.
+
+#### Installation: Vorsicht
+- Aufwändig: Windows-Paket (Nvidia-GPU ab 6 GB VRAM), Installation per Python/conda oder langsame CPU-Variante, etwa 3 bis 5 Minuten pro Bild.
+- Das Windows-Paket liegt auf Google Drive. Wer Google meiden will, muss aus dem Quellcode installieren.
+- Colab-Notebooks von Dritten können Code ausführen und auf Drive oder Zugangsdaten zugreifen. Vorher den Code prüfen, Drive nicht freigeben, am besten ein Wegwerf-Konto nutzen.
+
+#### Fragliche Wirksamkeit:
+- Schützt nur gegen Stilkopie per Feintuning, nicht gegen das Training grosser Modelle.
+- Laut Entwicklern nur Mehraufwand für Angreifer, keine unabhängigen Belege.
+- Schutz kann umgangen werden, veröffentlichte Bilder bleiben ungeschützt.
 
 ## Strategie 2: Alternativen & Federation 
 
