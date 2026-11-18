@@ -5,6 +5,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "gapsans";
+    src: url("./GapSansBold.ttf") format("truetype");
+    font-weight: normal;
+    font-display: swap;
+    font-weight: bold;
+}
+
 :root {
     --color: #6000bfff;
     --background: white;
@@ -198,6 +206,7 @@ article:has(h2):not(#description article) {
 article h3 {
     color: var(--color);
     margin-top: 0.5rem;
+    font-weight: bold;
 }
 
 
