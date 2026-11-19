@@ -197,7 +197,7 @@ RewriteRule .* - [F,L]
 
 ### A Fly Like Thee
 
-[A Fly Like Thee](https://webresidencies.akademie-solitude.de/a-fly-like-thee/) von Olivier Jonvaux ist ein Open-Source-Plugin, das KI-Crawler erkennt, ihnen statt der Website-Inhalte vier Verse aus William Blakes Gedicht The Fly liefert und jeden Bot durch eine animierte Fliege sichtbar macht
+[A Fly Like Thee](https://webresidencies.akademie-solitude.de/a-fly-like-thee/) von Olivier Jonvaux ist ein Open-Source-Plugin, das KI-Crawler erkennt, ihnen statt der Website-Inhalte vier Verse aus William Blakes Gedicht »The Fly« liefert und jeden Bot durch eine animierte Fliege sichtbar macht.
 
 ## +weitere KI-Gegenschritte
 
@@ -221,12 +221,14 @@ Für einen Kompletten ausstieg aus diesen Infrastrukturen empfiehlt es sich Föd
 
 ### Beispiel Mastodon
 
-[Mastodon](https://joinmastodon.org/de) ist ein dezentrales soziales Netzwerk ähnlich wie X (Twitter). Nutzer:innen können Beiträge veröffentlichen, anderen folgen und Inhalte teilen. Mastodon besteht aus vielen unabhängigen Servern, sogenannten Instanzen. Nutzer:innen können selbst entscheiden, welcher Instanz sie beitreten möchten. Die Plattform ist kostenlos, werbefrei und Open Source.
+[Mastodon](https://joinmastodon.org/de) ist ein dezentrales soziales Netzwerk ähnlich wie vielleicht X (Twitter). Nutzer:innen können Beiträge veröffentlichen, anderen folgen und Inhalte teilen. Mastodon besteht aus vielen unabhängigen Servern, sogenannten Instanzen. Nutzer:innen können selbst entscheiden, welcher Instanz sie beitreten möchten. Die Plattform ist kostenlos, werbefrei und Open Source.
 
 #### Wichtig:
-- **Kein Algorithmus:** Einerseits beruhigender, kein Algo-Regime / weniger manipulative Feed-Steuerung. Andererseits gibt es dementsprechend weniger personalisierte Empfehlungen und Reichweite – man muss aktiver nach Nutzer:innen und Inhalten suchen.
+- Home, Lokal und Föderiert sind chronologisch sortiert. Es gibt also keine personalisierte Auswahl nach Likes, Interessen oder Verweildauer. Bei Trends und Vorschlägen gibt es dagegen »algorithmische Elemente«. Aber keine größer, vertsteckter (engagementbasierter) Algorithmus im normalen Feed. (über Drittanbieter kann man sich, dank der offennen API, sich den Content auch algorithmischer kuratieren lassen, siehe z.B:[Fedialgo](https://github.com/rollecode/fedialgo))
+ - Kein *Algo Regime* = Weniger Manipulation und mehr Kontrolle.
+ - Nachteil: weniger automatische Empfehlungen und Reichweite – neue Inhalte und Accounts muss man eher selbst suchen.
 
-- **Viele Instanzen:** Unterschiedliche Regeln und Communities ermöglichen eine passende Umgebung. Eigene Codes of Conduct können für Safe Spaces sorgen und für eine intensivere, authentischere Gemeinschaft sorgen, die Auswahl kann anfangs aber etwas verwirrend sein.
+- **Viele Instanzen:** Unterschiedliche Regeln und Communities ermöglichen eine passende Umgebung. Eigene Codes of Conduct können für Safe Spaces und für eine intensivere, authentischere Gemeinschaft sorgen, die Auswahl kann anfangs aber etwas verwirrend sein.
 
 ### Probleme mit Telegram
 
