@@ -231,7 +231,7 @@ Für einen Kompletten ausstieg aus diesen Infrastrukturen empfiehlt es sich Föd
 [Mastodon](https://joinmastodon.org/de) ist ein dezentrales soziales Netzwerk ähnlich wie vielleicht X (Twitter). Nutzer:innen können Beiträge veröffentlichen, anderen folgen und Inhalte teilen. Mastodon besteht aus vielen unabhängigen Servern, sogenannten Instanzen. Nutzer:innen können selbst entscheiden, welcher Instanz sie beitreten möchten. Die Plattform ist kostenlos, werbefrei und Open Source.
 
 #### Wichtig:
-- Home, Lokal und Föderiert sind chronologisch sortiert. Es gibt also keine personalisierte Auswahl nach Likes, Interessen oder Verweildauer. Bei Trends und Vorschlägen gibt es dagegen »algorithmische Elemente«. Aber keine größer, vertsteckter (engagementbasierter) Algorithmus im normalen Feed. (über Drittanbieter kann man sich, dank der offennen API, sich den Content auch algorithmischer kuratieren lassen, siehe z.B:[Fedialgo](https://github.com/rollecode/fedialgo))
+- Home, Lokal und Föderiert sind chronologisch sortiert. Es gibt also keine personalisierte Auswahl nach Likes, Interessen oder Verweildauer. Bei Trends und Vorschlägen gibt es dagegen »algorithmische Elemente«. Aber keine größer, vertsteckter (engagementbasierter) Algorithmus im normalen Feed. (über Drittanbieter kann man sich, dank der offennen API, sich den Content auch algorithmischer kuratieren lassen, siehe z.B: [Fedialgo](https://github.com/rollecode/fedialgo))
   - Kein übermächtiges *Algo Regime* => Weniger Manipulation, mehr Kontrolle.
   - Nachteil: weniger automatische Empfehlungen und Reichweite => neue Inhalte und Accounts muss man eher selbst suchen.
 
