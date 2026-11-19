@@ -225,8 +225,8 @@ Für einen Kompletten ausstieg aus diesen Infrastrukturen empfiehlt es sich Föd
 
 #### Wichtig:
 - Home, Lokal und Föderiert sind chronologisch sortiert. Es gibt also keine personalisierte Auswahl nach Likes, Interessen oder Verweildauer. Bei Trends und Vorschlägen gibt es dagegen »algorithmische Elemente«. Aber keine größer, vertsteckter (engagementbasierter) Algorithmus im normalen Feed. (über Drittanbieter kann man sich, dank der offennen API, sich den Content auch algorithmischer kuratieren lassen, siehe z.B:[Fedialgo](https://github.com/rollecode/fedialgo))
- - Kein *Algo Regime* = Weniger Manipulation und mehr Kontrolle.
- - Nachteil: weniger automatische Empfehlungen und Reichweite – neue Inhalte und Accounts muss man eher selbst suchen.
+  - Kein übermächtiges *Algo Regime* => Weniger Manipulation, mehr Kontrolle.
+  - Nachteil: weniger automatische Empfehlungen und Reichweite => neue Inhalte und Accounts muss man eher selbst suchen.
 
 - **Viele Instanzen:** Unterschiedliche Regeln und Communities ermöglichen eine passende Umgebung. Eigene Codes of Conduct können für Safe Spaces und für eine intensivere, authentischere Gemeinschaft sorgen, die Auswahl kann anfangs aber etwas verwirrend sein.
 
