@@ -274,8 +274,13 @@ blockquote p::after {
     content: "«";
 } 
 
+#menu {
+    scrollbar-width: thin;
+    scrollbar-color: #6000bf white;
+}
+
 #menu::-webkit-scrollbar {
-    width: 8px;
+    width: 9px;
 }
 
 #menu::-webkit-scrollbar-track {
@@ -290,8 +295,9 @@ blockquote p::after {
 }
 
 #menu::-webkit-scrollbar-thumb:hover {
-    background: var(--color);
+    background: #8b35df;
 }
+
 
 #menu-button {
     width: max(44px, calc(var(--u) * 3.5));
