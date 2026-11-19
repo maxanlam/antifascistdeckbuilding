@@ -244,6 +244,7 @@ Für einen Kompletten ausstieg aus diesen Infrastrukturen empfiehlt es sich Föd
   - Beste Verschlüsselung (Egal wer Kontrolle über Server hat, Nachrichten + Absender:in sind nicht auslesbar)
   - hat bereits viele User:innen
   - Server ist nicht föderiert und kann von autoritären Staaten geblockt werden ([und wird es bereits](https://ooni.org/post/2021-how-signal-private-messenger-blocked-around-the-world/))
+  - Gruppenchats sind auf 1000 Teilnehmer:innen limitiert
 
 - Als Backup zu Signal kann [Delta Chat](https://delta.chat/de/) dienen ([hier ausführlicher](https://signal-contingency-plan.info/))
   - Nachrichten sind auch sehr sicher verschlüsselt
@@ -254,18 +255,13 @@ Für einen Kompletten ausstieg aus diesen Infrastrukturen empfiehlt es sich Föd
 
 - Da Signal keine Untergruppen unterstützt und Gruppengrössen begrenzt sind, hält das manche grösseren Gruppen vom Wechsel ab. Dafür gibt es zwei Alternativen:
 
-- [mov.im](https://movim.eu/)
+- [mov.im](https://movim.eu/) (keine komplette Empfehlung, da noch sehr buggy)
   - ist ein Client/Bedienoberfläche für [xmpp](https://xmpp.org/), ist föderiert und nutzt e2e Verschlüsselung
+    - e2e Verschlüsselung muss bei movim extra aktiviert werden! In den Einstellungen OMEMO aktivieren. Und dann in den Chats das Schloss Symbol klicken.
   - funktioniert ähnlich wie discord und hat ein Blogging Feature
   - ein Account bei jeglichem [xmpp Provider](https://providers.xmpp.net/) reicht aus um mov.im zu benutzen
-  - weniger weit verbreitet und buggier, nur als webapp verfügbar (es gibt andere [xmpp Clients (Bedienoberflächen)](https://xmpp.org/software/?category=clients), die aber nicht die gleichen Channel Features anbieten)
+  - weniger weit verbreitet und buggier, nur als webapp verfügbar (es gibt andere [xmpp Clients (Bedienoberflächen)](https://xmpp.org/software/?category=clients), bei denen aber keine Channels funktionieren)
   - Metadaten sind nicht komplett sicher
-
-- Slack ähnliche Anwendungen, die explizit auf Gruppenchat fokussiert sind (pro Community ein Account)
-  - diese müssen entweder selbst gehostet werden oder ein Anbieter gefunden werden, wo es gehostet wird (hier aufpassen was für daten gesammelt werden!)
-  - [mattermost](https://mattermost.com/)
-    - z.B. bei framasoft gehostet ([link](https://framateam.org/login))
-  - [zulip](https://zulip.com/)
 
 - [Matrix](https://matrix.org/) (keine komplette Empfehlung)
   - ist ein föderiertes Protokoll mit e2ee
@@ -273,17 +269,13 @@ Für einen Kompletten ausstieg aus diesen Infrastrukturen empfiehlt es sich Föd
   - Die Burg betreibt auch einen eigenen [Matrix Server](https://matrix.burg-halle.de/#/welcome), der mit den studi Zugangsdaten benutzbar ist
   - Chat Metadaten werden an jeden Homeserver kopiert, deren User:innen teil des Channels sind (leicht auslesbar)
   - Ist nicht DSGVO konform, erfüllt nicht das Recht auf Vergessen ([link](https://www.cr-online.de/blog/2022/06/02/ein-fehler-in-der-matrix/))
+  - [FluffyChat](https://fluffychat.im/) kann als Client/Messenger empfohlen werden
 
-
-### Wieso fällt uns wechseln so schwer?
-
-#### Vendor Lock-In
-
-- Netzwerkeffekt: Alles findet auf Telegram statt
-
-- Datensilo: Unsere ganzen Chats/Profildaten sind dort gespeichert
-
-- Deswegen suchen wir nach open source und (am besten) föderierten/interoperablen Services, wägen diese aber auch gegen Sicherheit ab
+- Slack ähnliche Anwendungen, die explizit auf Gruppenchat fokussiert sind (pro Community ein Account) **diese sind serverseitig nicht verschlüsselt**
+  - müssen also entweder selbst gehostet werden oder ein vertrauenswürdiger Anbieter gefunden werden
+  - [mattermost](https://mattermost.com/)
+    - z.B. bei framasoft gehostet ([link](https://framateam.org/login))
+  - [zulip](https://zulip.com/)
 
 ### Fazit Messenger
 
@@ -292,7 +284,7 @@ Es gibt viele offene und sichere Optionen um von Telegram fort zu kommen. Den Ne
 
 ## Weitere Ressourcen
 
-### Kollaborationstools, gehostet auf Spendenbasis (ohne Mitgliedschaft)
+### Kollaborationstools, gehostet auf Spendenbasis (offene Mitgliedschaft)
 
 - [framasoft](https://framasoft.org/en/) (entwickelt PeerTube) bietet unter:
   - [Entgoogle das Internet](https://degooglisons-internet.org/) viele spendenbasierte Dienste an
@@ -314,3 +306,4 @@ Es gibt viele offene und sichere Optionen um von Telegram fort zu kommen. Den Ne
 - [weird little guys of FOSS](https://drewdevault.com/weird-guys/) von [Drew Devault](https://drewdevault.com/): Faschisten in der Open Source Community
   - [guter Blogbeitrag zum Thema](https://brennan.day/normalized-fascism-in-open-source-12-million-given-to-dhh/) von Brennan Brown
 - [Fashware](https://git.sr.ht/~rabbits/fashware) von [devine lu linvega](https://wiki.xxiivv.com/site/devine_lu_linvega.html): Quellen zu fragwürdigem bis faschistischem Verhalten von Tech Unternehmen und Personen des Tech Universums
+- [fediverse.party](https://fediverse.party/) Sammlung von Fediverse Diensten
